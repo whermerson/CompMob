@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\whermersonmarques\\AndroidStudioProjects\\CompMob\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en\\values-en.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\whermersonmarques\\AndroidStudioProjects\\CompMob\\app\\src\\main\\res\\values-en\\strings.xml",
+                    "from": {
+                        "startLines": "12,2,8,11,10,15,4,5,9,17,16,14,13,6,18,3,7",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "592,57,373,528,478,774,164,210,425,905,843,692,636,261,946,103,305",
+                        "endColumns": "42,44,50,62,48,67,44,49,51,39,60,80,54,42,46,59,66",
+                        "endOffsets": "630,97,419,586,522,837,204,255,472,940,899,768,686,299,988,158,367"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,98,143,194,257,306,374,419,469,521,561,622,703,758,801,848,908",
+                        "endColumns": "42,44,50,62,48,67,44,49,51,39,60,80,54,42,46,59,66",
+                        "endOffsets": "93,138,189,252,301,369,414,464,516,556,617,698,753,796,843,903,970"
+                    }
+                }
+            ]
+        }
+    ]
+}

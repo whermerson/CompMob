@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="adress">Adress:</string>
+    <string name="app_name">CompMob</string>
+    <string name="clientName">Client Name</string>
+    <string name="clientsCategory">CLIENT\'S CATEGORY</string>
+    <string name="codeReference">Adress</string>
+    <string name="consumptionAverage">Consumption Average:</string>
+    <string name="hintEmail">E-mail</string>
+    <string name="hintPassword">Password</string>
+    <string name="insertClient">New Client</string>
+    <string name="login">Login</string>
+    <string name="moreInformation">More Information</string>
+    <string name="peopleInTheProperty">People\'s Number of the Property</string>
+    <string name="pipeDiameter">Pipe Diameter</string>
+    <string name="signUp">Sign Up</string>
+    <string name="signUpText">Sign Up</string>
+    <string name="subtitlePhoto">Select your photo</string>
+    <string name="welcome">Welcome to CompMob Version 1.0</string>
+</resources>

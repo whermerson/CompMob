@@ -1,0 +1,234 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="br.com.softdicas.compmob"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\whermersonmarques\AndroidStudioProjects\CompMob\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\whermersonmarques\AndroidStudioProjects\CompMob\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\whermersonmarques\AndroidStudioProjects\CompMob\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\whermersonmarques\AndroidStudioProjects\CompMob\app\src\main\AndroidManifest.xml:5:22-64
+12
+13    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+14    <!-- <uses-sdk android:minSdkVersion="14" /> -->
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->[com.google.firebase:firebase-firestore:21.2.1] C:\Users\whermersonmarques\.gradle\caches\transforms-2\files-2.1\6ca87b5cd0462316a39942565c3e5d6a\jetified-firebase-firestore-21.2.1\AndroidManifest.xml:13:5-79
+15-->[com.google.firebase:firebase-firestore:21.2.1] C:\Users\whermersonmarques\.gradle\caches\transforms-2\files-2.1\6ca87b5cd0462316a39942565c3e5d6a\jetified-firebase-firestore-21.2.1\AndroidManifest.xml:13:22-76
+16    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+16-->[com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\whermersonmarques\.gradle\caches\transforms-2\files-2.1\66032bba7be7584dabcd0e3edafc3cf4\play-services-measurement-api-17.2.1\AndroidManifest.xml:24:5-68
+16-->[com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\whermersonmarques\.gradle\caches\transforms-2\files-2.1\66032bba7be7584dabcd0e3edafc3cf4\play-services-measurement-api-17.2.1\AndroidManifest.xml:24:22-65
+17    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+17-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\whermersonmarques\.gradle\caches\transforms-2\files-2.1\c867b56542a6031b43837a3eb28fa568\firebase-iid-19.0.0\AndroidManifest.xml:26:5-82
+17-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\whermersonmarques\.gradle\caches\transforms-2\files-2.1\c867b56542a6031b43837a3eb28fa568\firebase-iid-19.0.0\AndroidManifest.xml:26:22-79
+18    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+18-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\whermersonmarques\.gradle\caches\transforms-2\files-2.1\2557542b6e9fa8eb2c52eccdd919b9dc\play-services-measurement-17.2.1\AndroidManifest.xml:26:5-110
+18-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\whermersonmarques\.gradle\caches\transforms-2\files-2.1\2557542b6e9fa8eb2c52eccdd919b9dc\play-services-measurement-17.2.1\AndroidManifest.xml:26:22-107
+19
+20    <application
+20-->C:\Users\whermersonmarques\AndroidStudioProjects\CompMob\app\src\main\AndroidManifest.xml:7:5-26:19
+21        android:allowBackup="true"
+21-->C:\Users\whermersonmarques\AndroidStudioProjects\CompMob\app\src\main\AndroidManifest.xml:8:9-35
+22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+22-->[androidx.core:core:1.1.0] C:\Users\whermersonmarques\.gradle\caches\transforms-2\files-2.1\18a18f197abfbf66f0ce4b915a300a70\core-1.1.0\AndroidManifest.xml:24:18-86
+23        android:debuggable="true"
+24        android:icon="@mipmap/ic_launcher"
+24-->C:\Users\whermersonmarques\AndroidStudioProjects\CompMob\app\src\main\AndroidManifest.xml:9:9-43
+25        android:label="@string/app_name"
+25-->C:\Users\whermersonmarques\AndroidStudioProjects\CompMob\app\src\main\AndroidManifest.xml:10:9-41
+26        android:roundIcon="@mipmap/ic_launcher_round"
+26-->C:\Users\whermersonmarques\AndroidStudioProjects\CompMob\app\src\main\AndroidManifest.xml:11:9-54
+27        android:supportsRtl="true"
+27-->C:\Users\whermersonmarques\AndroidStudioProjects\CompMob\app\src\main\AndroidManifest.xml:12:9-35
+28        android:testOnly="true"
+29        android:theme="@style/AppTheme" >
+29-->C:\Users\whermersonmarques\AndroidStudioProjects\CompMob\app\src\main\AndroidManifest.xml:13:9-40
+30        <activity android:name="br.com.softdicas.compmob.EscolheCategoria" />
+30-->C:\Users\whermersonmarques\AndroidStudioProjects\CompMob\app\src\main\AndroidManifest.xml:14:9-63
+30-->C:\Users\whermersonmarques\AndroidStudioProjects\CompMob\app\src\main\AndroidManifest.xml:14:19-51
+31        <activity android:name="br.com.softdicas.compmob.CadastroCliente" />
+31-->C:\Users\whermersonmarques\AndroidStudioProjects\CompMob\app\src\main\AndroidManifest.xml:15:9-53
+31-->C:\Users\whermersonmarques\AndroidStudioProjects\CompMob\app\src\main\AndroidManifest.xml:15:19-50
+32        <activity android:name="br.com.softdicas.compmob.ExibeCliente" />
+32-->C:\Users\whermersonmarques\AndroidStudioProjects\CompMob\app\src\main\AndroidManifest.xml:16:9-50
+32-->C:\Users\whermersonmarques\AndroidStudioProjects\CompMob\app\src\main\AndroidManifest.xml:16:19-47
+33        <activity android:name="br.com.softdicas.compmob.CadastroUsuario" />
+33-->C:\Users\whermersonmarques\AndroidStudioProjects\CompMob\app\src\main\AndroidManifest.xml:17:9-53
+33-->C:\Users\whermersonmarques\AndroidStudioProjects\CompMob\app\src\main\AndroidManifest.xml:17:19-50
+34        <activity android:name="br.com.softdicas.compmob.ListaDeClientes" >
+34-->C:\Users\whermersonmarques\AndroidStudioProjects\CompMob\app\src\main\AndroidManifest.xml:18:9-24:20
+34-->C:\Users\whermersonmarques\AndroidStudioProjects\CompMob\app\src\main\AndroidManifest.xml:18:19-50
+35            <intent-filter>
+35-->C:\Users\whermersonmarques\AndroidStudioProjects\CompMob\app\src\main\AndroidManifest.xml:19:13-23:29
+36                <action android:name="android.intent.action.MAIN" />
+36-->C:\Users\whermersonmarques\AndroidStudioProjects\CompMob\app\src\main\AndroidManifest.xml:20:17-69
+36-->C:\Users\whermersonmarques\AndroidStudioProjects\CompMob\app\src\main\AndroidManifest.xml:20:25-66
+37
+38                <category android:name="android.intent.category.LAUNCHER" />
+38-->C:\Users\whermersonmarques\AndroidStudioProjects\CompMob\app\src\main\AndroidManifest.xml:22:17-77
+38-->C:\Users\whermersonmarques\AndroidStudioProjects\CompMob\app\src\main\AndroidManifest.xml:22:27-74
+39            </intent-filter>
+40        </activity>
+41        <activity android:name="br.com.softdicas.compmob.MainActivity" />
+41-->C:\Users\whermersonmarques\AndroidStudioProjects\CompMob\app\src\main\AndroidManifest.xml:25:9-50
+41-->C:\Users\whermersonmarques\AndroidStudioProjects\CompMob\app\src\main\AndroidManifest.xml:25:19-47
+42
+43        <provider
+43-->[com.squareup.picasso:picasso:2.71828] C:\Users\whermersonmarques\.gradle\caches\transforms-2\files-2.1\013ed79d27c7b76be447eeb273530a04\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
+44            android:name="com.squareup.picasso.PicassoProvider"
+44-->[com.squareup.picasso:picasso:2.71828] C:\Users\whermersonmarques\.gradle\caches\transforms-2\files-2.1\013ed79d27c7b76be447eeb273530a04\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
+45            android:authorities="br.com.softdicas.compmob.com.squareup.picasso"
+45-->[com.squareup.picasso:picasso:2.71828] C:\Users\whermersonmarques\.gradle\caches\transforms-2\files-2.1\013ed79d27c7b76be447eeb273530a04\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
+46            android:exported="false" />
+46-->[com.squareup.picasso:picasso:2.71828] C:\Users\whermersonmarques\.gradle\caches\transforms-2\files-2.1\013ed79d27c7b76be447eeb273530a04\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
+47
+48        <activity
+48-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\whermersonmarques\.gradle\caches\transforms-2\files-2.1\e1a343a79a2f380a957a4dd45c5293c7\firebase-auth-19.1.0\AndroidManifest.xml:24:9-31:50
+49            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+49-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\whermersonmarques\.gradle\caches\transforms-2\files-2.1\e1a343a79a2f380a957a4dd45c5293c7\firebase-auth-19.1.0\AndroidManifest.xml:25:13-85
+50            android:excludeFromRecents="true"
+50-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\whermersonmarques\.gradle\caches\transforms-2\files-2.1\e1a343a79a2f380a957a4dd45c5293c7\firebase-auth-19.1.0\AndroidManifest.xml:26:13-46
+51            android:exported="true"
+51-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\whermersonmarques\.gradle\caches\transforms-2\files-2.1\e1a343a79a2f380a957a4dd45c5293c7\firebase-auth-19.1.0\AndroidManifest.xml:27:13-36
+52            android:launchMode="singleTask"
+52-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\whermersonmarques\.gradle\caches\transforms-2\files-2.1\e1a343a79a2f380a957a4dd45c5293c7\firebase-auth-19.1.0\AndroidManifest.xml:28:13-44
+53            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+53-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\whermersonmarques\.gradle\caches\transforms-2\files-2.1\e1a343a79a2f380a957a4dd45c5293c7\firebase-auth-19.1.0\AndroidManifest.xml:29:13-102
+54            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+54-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\whermersonmarques\.gradle\caches\transforms-2\files-2.1\e1a343a79a2f380a957a4dd45c5293c7\firebase-auth-19.1.0\AndroidManifest.xml:30:13-72
+55
+56        <service
+56-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\whermersonmarques\.gradle\caches\transforms-2\files-2.1\e1a343a79a2f380a957a4dd45c5293c7\firebase-auth-19.1.0\AndroidManifest.xml:33:9-39:19
+57            android:name="com.google.firebase.components.ComponentDiscoveryService"
+57-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\whermersonmarques\.gradle\caches\transforms-2\files-2.1\e1a343a79a2f380a957a4dd45c5293c7\firebase-auth-19.1.0\AndroidManifest.xml:34:13-84
+58            android:directBootAware="true"
+58-->[com.google.firebase:firebase-common:19.2.0] C:\Users\whermersonmarques\.gradle\caches\transforms-2\files-2.1\f95fe81568ec1040cc7fea5f43b38b7d\firebase-common-19.2.0\AndroidManifest.xml:15:13-43
+59            android:exported="false" >
+59-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\whermersonmarques\.gradle\caches\transforms-2\files-2.1\e1a343a79a2f380a957a4dd45c5293c7\firebase-auth-19.1.0\AndroidManifest.xml:35:13-37
+60            <meta-data
+60-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\whermersonmarques\.gradle\caches\transforms-2\files-2.1\e1a343a79a2f380a957a4dd45c5293c7\firebase-auth-19.1.0\AndroidManifest.xml:36:13-38:85
+61                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+61-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\whermersonmarques\.gradle\caches\transforms-2\files-2.1\e1a343a79a2f380a957a4dd45c5293c7\firebase-auth-19.1.0\AndroidManifest.xml:37:17-109
+62                android:value="com.google.firebase.components.ComponentRegistrar" />
+62-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\whermersonmarques\.gradle\caches\transforms-2\files-2.1\e1a343a79a2f380a957a4dd45c5293c7\firebase-auth-19.1.0\AndroidManifest.xml:38:17-82
+63            <meta-data
+63-->[com.google.firebase:firebase-firestore:21.2.1] C:\Users\whermersonmarques\.gradle\caches\transforms-2\files-2.1\6ca87b5cd0462316a39942565c3e5d6a\jetified-firebase-firestore-21.2.1\AndroidManifest.xml:20:13-22:85
+64                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+64-->[com.google.firebase:firebase-firestore:21.2.1] C:\Users\whermersonmarques\.gradle\caches\transforms-2\files-2.1\6ca87b5cd0462316a39942565c3e5d6a\jetified-firebase-firestore-21.2.1\AndroidManifest.xml:21:17-111
+65                android:value="com.google.firebase.components.ComponentRegistrar" />
+65-->[com.google.firebase:firebase-firestore:21.2.1] C:\Users\whermersonmarques\.gradle\caches\transforms-2\files-2.1\6ca87b5cd0462316a39942565c3e5d6a\jetified-firebase-firestore-21.2.1\AndroidManifest.xml:22:17-82
+66            <meta-data
+66-->[com.google.firebase:firebase-storage:19.1.0] C:\Users\whermersonmarques\.gradle\caches\transforms-2\files-2.1\de2ee7642f4f6d01c179a4c08f1e589f\firebase-storage-19.1.0\AndroidManifest.xml:33:13-35:85
+67                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+67-->[com.google.firebase:firebase-storage:19.1.0] C:\Users\whermersonmarques\.gradle\caches\transforms-2\files-2.1\de2ee7642f4f6d01c179a4c08f1e589f\firebase-storage-19.1.0\AndroidManifest.xml:34:17-107
+68                android:value="com.google.firebase.components.ComponentRegistrar" />
+68-->[com.google.firebase:firebase-storage:19.1.0] C:\Users\whermersonmarques\.gradle\caches\transforms-2\files-2.1\de2ee7642f4f6d01c179a4c08f1e589f\firebase-storage-19.1.0\AndroidManifest.xml:35:17-82
+69            <meta-data
+69-->[com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\whermersonmarques\.gradle\caches\transforms-2\files-2.1\66032bba7be7584dabcd0e3edafc3cf4\play-services-measurement-api-17.2.1\AndroidManifest.xml:30:13-32:85
+70                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+70-->[com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\whermersonmarques\.gradle\caches\transforms-2\files-2.1\66032bba7be7584dabcd0e3edafc3cf4\play-services-measurement-api-17.2.1\AndroidManifest.xml:31:17-139
+71                android:value="com.google.firebase.components.ComponentRegistrar" />
+71-->[com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\whermersonmarques\.gradle\caches\transforms-2\files-2.1\66032bba7be7584dabcd0e3edafc3cf4\play-services-measurement-api-17.2.1\AndroidManifest.xml:32:17-82
+72            <meta-data
+72-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\whermersonmarques\.gradle\caches\transforms-2\files-2.1\c867b56542a6031b43837a3eb28fa568\firebase-iid-19.0.0\AndroidManifest.xml:32:13-34:85
+73                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+73-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\whermersonmarques\.gradle\caches\transforms-2\files-2.1\c867b56542a6031b43837a3eb28fa568\firebase-iid-19.0.0\AndroidManifest.xml:33:17-96
+74                android:value="com.google.firebase.components.ComponentRegistrar" />
+74-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\whermersonmarques\.gradle\caches\transforms-2\files-2.1\c867b56542a6031b43837a3eb28fa568\firebase-iid-19.0.0\AndroidManifest.xml:34:17-82
+75        </service>
+76
+77        <receiver
+77-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\whermersonmarques\.gradle\caches\transforms-2\files-2.1\c867b56542a6031b43837a3eb28fa568\firebase-iid-19.0.0\AndroidManifest.xml:37:9-44:20
+78            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+78-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\whermersonmarques\.gradle\caches\transforms-2\files-2.1\c867b56542a6031b43837a3eb28fa568\firebase-iid-19.0.0\AndroidManifest.xml:38:13-78
+79            android:exported="true"
+79-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\whermersonmarques\.gradle\caches\transforms-2\files-2.1\c867b56542a6031b43837a3eb28fa568\firebase-iid-19.0.0\AndroidManifest.xml:39:13-36
+80            android:permission="com.google.android.c2dm.permission.SEND" >
+80-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\whermersonmarques\.gradle\caches\transforms-2\files-2.1\c867b56542a6031b43837a3eb28fa568\firebase-iid-19.0.0\AndroidManifest.xml:40:13-73
+81            <intent-filter>
+81-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\whermersonmarques\.gradle\caches\transforms-2\files-2.1\c867b56542a6031b43837a3eb28fa568\firebase-iid-19.0.0\AndroidManifest.xml:41:13-43:29
+82                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+82-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\whermersonmarques\.gradle\caches\transforms-2\files-2.1\c867b56542a6031b43837a3eb28fa568\firebase-iid-19.0.0\AndroidManifest.xml:42:17-81
+82-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\whermersonmarques\.gradle\caches\transforms-2\files-2.1\c867b56542a6031b43837a3eb28fa568\firebase-iid-19.0.0\AndroidManifest.xml:42:25-78
+83            </intent-filter>
+84        </receiver>
+85
+86        <activity
+86-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\whermersonmarques\.gradle\caches\transforms-2\files-2.1\a22221721b39c476ae71201176003add\play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+87            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+87-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\whermersonmarques\.gradle\caches\transforms-2\files-2.1\a22221721b39c476ae71201176003add\play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+88            android:exported="false"
+88-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\whermersonmarques\.gradle\caches\transforms-2\files-2.1\a22221721b39c476ae71201176003add\play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+89            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+89-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\whermersonmarques\.gradle\caches\transforms-2\files-2.1\a22221721b39c476ae71201176003add\play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+90
+91        <provider
+91-->[com.google.firebase:firebase-common:19.2.0] C:\Users\whermersonmarques\.gradle\caches\transforms-2\files-2.1\f95fe81568ec1040cc7fea5f43b38b7d\firebase-common-19.2.0\AndroidManifest.xml:19:9-23:39
+92            android:name="com.google.firebase.provider.FirebaseInitProvider"
+92-->[com.google.firebase:firebase-common:19.2.0] C:\Users\whermersonmarques\.gradle\caches\transforms-2\files-2.1\f95fe81568ec1040cc7fea5f43b38b7d\firebase-common-19.2.0\AndroidManifest.xml:20:13-77
+93            android:authorities="br.com.softdicas.compmob.firebaseinitprovider"
+93-->[com.google.firebase:firebase-common:19.2.0] C:\Users\whermersonmarques\.gradle\caches\transforms-2\files-2.1\f95fe81568ec1040cc7fea5f43b38b7d\firebase-common-19.2.0\AndroidManifest.xml:21:13-72
+94            android:exported="false"
+94-->[com.google.firebase:firebase-common:19.2.0] C:\Users\whermersonmarques\.gradle\caches\transforms-2\files-2.1\f95fe81568ec1040cc7fea5f43b38b7d\firebase-common-19.2.0\AndroidManifest.xml:22:13-37
+95            android:initOrder="100" />
+95-->[com.google.firebase:firebase-common:19.2.0] C:\Users\whermersonmarques\.gradle\caches\transforms-2\files-2.1\f95fe81568ec1040cc7fea5f43b38b7d\firebase-common-19.2.0\AndroidManifest.xml:23:13-36
+96
+97        <receiver
+97-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\whermersonmarques\.gradle\caches\transforms-2\files-2.1\2557542b6e9fa8eb2c52eccdd919b9dc\play-services-measurement-17.2.1\AndroidManifest.xml:29:9-33:20
+98            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+98-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\whermersonmarques\.gradle\caches\transforms-2\files-2.1\2557542b6e9fa8eb2c52eccdd919b9dc\play-services-measurement-17.2.1\AndroidManifest.xml:30:13-85
+99            android:enabled="true"
+99-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\whermersonmarques\.gradle\caches\transforms-2\files-2.1\2557542b6e9fa8eb2c52eccdd919b9dc\play-services-measurement-17.2.1\AndroidManifest.xml:31:13-35
+100            android:exported="false" >
+100-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\whermersonmarques\.gradle\caches\transforms-2\files-2.1\2557542b6e9fa8eb2c52eccdd919b9dc\play-services-measurement-17.2.1\AndroidManifest.xml:32:13-37
+101        </receiver>
+102        <receiver
+102-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\whermersonmarques\.gradle\caches\transforms-2\files-2.1\2557542b6e9fa8eb2c52eccdd919b9dc\play-services-measurement-17.2.1\AndroidManifest.xml:34:9-42:20
+103            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+103-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\whermersonmarques\.gradle\caches\transforms-2\files-2.1\2557542b6e9fa8eb2c52eccdd919b9dc\play-services-measurement-17.2.1\AndroidManifest.xml:35:13-100
+104            android:enabled="true"
+104-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\whermersonmarques\.gradle\caches\transforms-2\files-2.1\2557542b6e9fa8eb2c52eccdd919b9dc\play-services-measurement-17.2.1\AndroidManifest.xml:36:13-35
+105            android:exported="true"
+105-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\whermersonmarques\.gradle\caches\transforms-2\files-2.1\2557542b6e9fa8eb2c52eccdd919b9dc\play-services-measurement-17.2.1\AndroidManifest.xml:37:13-36
+106            android:permission="android.permission.INSTALL_PACKAGES" >
+106-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\whermersonmarques\.gradle\caches\transforms-2\files-2.1\2557542b6e9fa8eb2c52eccdd919b9dc\play-services-measurement-17.2.1\AndroidManifest.xml:38:13-69
+107            <intent-filter>
+107-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\whermersonmarques\.gradle\caches\transforms-2\files-2.1\2557542b6e9fa8eb2c52eccdd919b9dc\play-services-measurement-17.2.1\AndroidManifest.xml:39:13-41:29
+108                <action android:name="com.android.vending.INSTALL_REFERRER" />
+108-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\whermersonmarques\.gradle\caches\transforms-2\files-2.1\2557542b6e9fa8eb2c52eccdd919b9dc\play-services-measurement-17.2.1\AndroidManifest.xml:40:17-79
+108-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\whermersonmarques\.gradle\caches\transforms-2\files-2.1\2557542b6e9fa8eb2c52eccdd919b9dc\play-services-measurement-17.2.1\AndroidManifest.xml:40:25-76
+109            </intent-filter>
+110        </receiver>
+111
+112        <service
+112-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\whermersonmarques\.gradle\caches\transforms-2\files-2.1\2557542b6e9fa8eb2c52eccdd919b9dc\play-services-measurement-17.2.1\AndroidManifest.xml:44:9-47:40
+113            android:name="com.google.android.gms.measurement.AppMeasurementService"
+113-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\whermersonmarques\.gradle\caches\transforms-2\files-2.1\2557542b6e9fa8eb2c52eccdd919b9dc\play-services-measurement-17.2.1\AndroidManifest.xml:45:13-84
+114            android:enabled="true"
+114-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\whermersonmarques\.gradle\caches\transforms-2\files-2.1\2557542b6e9fa8eb2c52eccdd919b9dc\play-services-measurement-17.2.1\AndroidManifest.xml:46:13-35
+115            android:exported="false" />
+115-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\whermersonmarques\.gradle\caches\transforms-2\files-2.1\2557542b6e9fa8eb2c52eccdd919b9dc\play-services-measurement-17.2.1\AndroidManifest.xml:47:13-37
+116        <service
+116-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\whermersonmarques\.gradle\caches\transforms-2\files-2.1\2557542b6e9fa8eb2c52eccdd919b9dc\play-services-measurement-17.2.1\AndroidManifest.xml:48:9-52:72
+117            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+117-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\whermersonmarques\.gradle\caches\transforms-2\files-2.1\2557542b6e9fa8eb2c52eccdd919b9dc\play-services-measurement-17.2.1\AndroidManifest.xml:49:13-87
+118            android:enabled="true"
+118-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\whermersonmarques\.gradle\caches\transforms-2\files-2.1\2557542b6e9fa8eb2c52eccdd919b9dc\play-services-measurement-17.2.1\AndroidManifest.xml:50:13-35
+119            android:exported="false"
+119-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\whermersonmarques\.gradle\caches\transforms-2\files-2.1\2557542b6e9fa8eb2c52eccdd919b9dc\play-services-measurement-17.2.1\AndroidManifest.xml:51:13-37
+120            android:permission="android.permission.BIND_JOB_SERVICE" />
+120-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\whermersonmarques\.gradle\caches\transforms-2\files-2.1\2557542b6e9fa8eb2c52eccdd919b9dc\play-services-measurement-17.2.1\AndroidManifest.xml:52:13-69
+121
+122        <meta-data
+122-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\whermersonmarques\.gradle\caches\transforms-2\files-2.1\6d22d5a2159bc5395663de5d3c4afede\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+123            android:name="com.google.android.gms.version"
+123-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\whermersonmarques\.gradle\caches\transforms-2\files-2.1\6d22d5a2159bc5395663de5d3c4afede\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+124            android:value="@integer/google_play_services_version" />
+124-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\whermersonmarques\.gradle\caches\transforms-2\files-2.1\6d22d5a2159bc5395663de5d3c4afede\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+125    </application>
+126
+127</manifest>

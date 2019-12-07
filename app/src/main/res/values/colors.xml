@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#7159C1</color>
+    <color name="colorPrimaryDark">#5F49AB</color>
+    <color name="colorAccent">#ffc107</color>
+    <color name="bgColor">#7159C1</color>
+    <color name="textColor">#ffffff</color>
+    <color name="textColor2">#ababab</color>
+    <color name="caixaAlta">#ff5722</color>
+    <color name="colorAccent2">#e2a30c</color>
+
+
+    <color name="ap_transparent">#00000000</color>
+    <color name="ap_charcoal">#111</color>
+
+</resources>

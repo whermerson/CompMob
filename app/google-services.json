@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "582924749032",
+    "firebase_url": "https://compmob-3455a.firebaseio.com",
+    "project_id": "compmob-3455a",
+    "storage_bucket": "compmob-3455a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:582924749032:android:ca5ae25f564b87e0aee15d",
+        "android_client_info": {
+          "package_name": "br.com.softdicas.compmob"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "582924749032-1dm0bc8b473st6912s65gjb84jbr12tj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDSAQNEHuR8aYKv6LulivNxq9YXWwZ9sXo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "582924749032-1dm0bc8b473st6912s65gjb84jbr12tj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

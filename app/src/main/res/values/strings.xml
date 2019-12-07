@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">CompMob</string>
+    <string name="subtitlePhoto">Clique aqui para selecionar a foto</string>
+    <string name="hintEmail">E-mail</string>
+    <string name="hintPassword">Senha</string>
+    <string name="signUp">Realizar Cadastro</string>
+    <string name="welcome">Seja bem vido ao CompMob Versão 1.0</string>
+    <string name="clientName">Identificação do Cliente</string>
+    <string name="insertClient">Cadastrar</string>
+    <string name="codeReference">Endereço</string>
+    <string name="clientsCategory">CATEGORIA DO CLIENTE</string>
+    <string name="adress">Endereço:</string>
+    <string name="pipeDiameter">Diâmetro da Rede:</string>
+    <string name="peopleInTheProperty">Quantidade de Pessoas no Imóvel:</string>
+    <string name="consumptionAverage">Média de Consumo:</string>
+    <string name="moreInformation">Demais Informações</string>
+    <string name="login">Realizar Login</string>
+    <string name="signUpText">Cadastre-se</string>
+</resources>
